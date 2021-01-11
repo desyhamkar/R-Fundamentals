@@ -1,31 +1,32 @@
-#Bq Desy Hardianti
+#Exercise 1
 
 #Task 1: Write a R program to create a vector of a specified type and length. Create vector of numeric, complex, logical and  character types of length 10.
-A<- c(1,2,3,4,5)
-typeof(A)
-length(A)
+#numeric vector
+vector_a<- c(1,2,3,4,5)
+typeof(vector_a)
+length(vector_a)
 
 #logical
-B<- c(T,T,T,T,T,F,F,F,F,F)
-typeof(B)
-length(B)
+vector_b <- c(T,T,T,T,T,F,F,F,F,F)
+typeof(vector_b)
+length(vector_b)
 
 #complex
-C<- c( T, 5L, 3.14, 8+9i )
-typeof(C)
-length(C)
+vector_c <- c( T, 5L, 3.14, 8+9i )
+typeof(vector_c)
+length(vector_c)
 
 #Character
-D<- c(1,2,3,4,5,"six",'7','EIGHT')
-typeof(D)
-length(D)
+vector_d <- c(1,2,3,4,5,"six",'7','EIGHT')
+typeof(vector_d)
+length(vector_d)
 
 #Task 2: Write a R program to append value to a given empty vector.
-empvector <- sample(10)
-empvector
+emptyvector <- sample(10)
+emptyvector
 
 #Task 3: Write a R program to find Sum, Mean and Product of a Vector, ignore element like NA or NaN.
-E<- c(1:100, NA, NaN)
+E <- c(1:100, NA, NaN)
 E
 function()
 #SUM
@@ -88,7 +89,7 @@ vector1
 rev(vector1)
 
 #Task 12: Write a R program to concatenate a vector.
-vector1<- c('Bq ', 'Desy ', 'Hardianti')
+vector1<- c('Your ', 'Own ', 'Name')
 paste(vector1, collapse = '')
 
 #Task 13: Write a R program to take input from the user (name and age) and display the values.
