@@ -1,4 +1,4 @@
-#Bq Desy Hardianti
+#MATRIX AND ARRAY
 
 #In all below tasks create your own toy objects i.e. named vectors, non-empty vectors and lists etc.
 
