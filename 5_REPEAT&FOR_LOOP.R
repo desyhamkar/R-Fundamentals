@@ -1,4 +1,3 @@
-#BQ DESY HARDIANTI
 #Exercise_1:
 #a) Create the "letter" vector containing upper case letters from the basic alphabet (26 letters).
 letter <- LETTERS
